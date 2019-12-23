@@ -56,7 +56,7 @@ def welcome():
         f'<tr><td align=right><a href="/">~/</a></td><td> -- </td><td>Welcome Screen</td></tr>'
         f'<tr><td align=right><a href="/api/v1.0/precipitation">~/api/v1.0/precipitation </a></td><td> -- </td><td>Dictionary of average precipitation across stations keyed by date</td> </tr>'
         f'<tr><td align=right><a href="/api/v1.0/stations">~/api/v1.0/stations</a></td><td> -- </td><td>List of Stations </td> </tr>'
-        f'<tr><td align=right><a href="/api/v1.0/tobs">~/api/v1.0/tobs</a></td><td> -- </td><td>Last data year of temperature observations </td> </tr>'
+        f'<tr><td align=right><a href="/api/v1.0/tobs">~/api/v1.0/tobs</a></td><td> -- </td><td>List of temperature observations from final 12 months of data </td> </tr>'
         f'<tr><td align=right><a href="/api/v1.0/&lt;start&gt;">~/api/v1.0/&lt;start&gt;</a></td><td> -- </td><td>Min, Avg, & Max Temperature from start date on </td> </tr>'
         f'<tr><td align=right><a href="/api/v1.0/&lt;start&gt;/&lt;end&gt;">~/api/v1.0/&lt;start&gt;/&lt;end&gt;</a></td><td> -- </td><td>Min, Avg, & Max Temperature between start & end dates</td> </tr>'
         f'</tbody></table>'
